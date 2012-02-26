@@ -1,0 +1,44 @@
+<webapp-structure>
+  <registeredFiles>
+    <entry>
+      <string>currentBuild</string>
+      <path-set>
+        <pathsSet class="linked-hash-set">
+          <string>WEB-INF/web.xml</string>
+          <string>WEB-INF/classes/beans.xml</string>
+          <string>WEB-INF/classes/ru/shangin/beans/Hello.class</string>
+          <string>WEB-INF/classes/ru/shangin/servlets/HelloServlet.class</string>
+          <string>WEB-INF/lib/spring-2.5.6.jar</string>
+          <string>WEB-INF/lib/commons-logging-1.1.1.jar</string>
+        </pathsSet>
+      </path-set>
+    </entry>
+  </registeredFiles>
+  <dependenciesInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring</artifactId>
+        <version>2.5.6</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+        <modelEncoding>UTF-8</modelEncoding>
+      </dependency>
+      <targetFileName>spring-2.5.6.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>2.5</version>
+        <type>jar</type>
+        <scope>provided</scope>
+        <exclusions/>
+        <optional>false</optional>
+        <modelEncoding>UTF-8</modelEncoding>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+  </dependenciesInfo>
+</webapp-structure>
